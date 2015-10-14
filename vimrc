@@ -62,6 +62,7 @@ set wildmenu
 set autoread
 
 let g:airline_powerline_fonts=1
+let g:nerdtree_tabs_open_on_console_startup=1
 
 " share a single NERDTree between buffers and tabs
  if argc() == 0
