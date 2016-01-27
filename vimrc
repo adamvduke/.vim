@@ -70,6 +70,9 @@ map <Leader>n <plug>NERDTreeTabsToggle<CR>
 " map leader t to find the current file in nerdtree
 noremap <leader>t :NERDTreeToggle<CR><c-w><c-p>:NERDTreeFind<CR>
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
 let g:airline_powerline_fonts=1
 let g:nerdtree_tabs_open_on_console_startup=1
 
