@@ -1,6 +1,17 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set autoindent
+set autoread
+set cursorline
+set expandtab
+set hidden
+set number
+set shiftwidth=2
+set smarttab
+set tabstop=2
+set wildmenu
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -58,8 +69,6 @@ map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " map leader t to find the current file in nerdtree
 noremap <leader>t :NERDTreeToggle<CR><c-w><c-p>:NERDTreeFind<CR>
-set wildmenu
-set autoread
 
 let g:airline_powerline_fonts=1
 let g:nerdtree_tabs_open_on_console_startup=1
