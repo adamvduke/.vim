@@ -13,4 +13,4 @@ Start vim
 :so ~/.vim/vimrc
 ```
 
-Download and install a powerline font: https://github.com/fncll/vimstuff/tree/master/powerline-fonts
+Download and install a powerline font: https://github.com/powerline/fonts
