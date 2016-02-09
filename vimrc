@@ -3,7 +3,6 @@ filetype off                  " required
 
 set autoindent
 set autoread
-set cursorline
 set expandtab
 set hidden
 set number
