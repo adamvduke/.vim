@@ -39,6 +39,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-rails'
 Plugin 'skwp/vim-rspec'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'roman/golden-ratio'
 
 call vundle#end()            " required
 filetype plugin indent on    " requiredfiletype plugin indent on
