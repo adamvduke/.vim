@@ -20,26 +20,26 @@ call vundle#begin()
 " required!
 Plugin 'gmarik/vundle'
 
-Plugin 'mileszs/ack.vim'
-Plugin 'rking/ag.vim'
+Plugin 'bling/vim-airline'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'rking/ag.vim'
+Plugin 'roman/golden-ratio'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'edkolev/tmuxline.vim'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-Plugin 'bling/vim-airline'
-Plugin 'kchmck/vim-coffee-script'
+Plugin 'skwp/vim-rspec'
 Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-haml'
-Plugin 'pangloss/vim-javascript'
-Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-rails'
-Plugin 'skwp/vim-rspec'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'roman/golden-ratio'
 
 call vundle#end()            " required
 filetype plugin indent on    " requiredfiletype plugin indent on
