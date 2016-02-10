@@ -2,14 +2,14 @@
 
 ```bash
 cd ~/
-git clone git@github.com:adamvduke/.vim.git
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/adamvduke/.vim.git ~/.vim
+mkdir -p ~/.vim/autoload && curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 Start vim
 
 ```vim
-:PluginInstall
+:PlugInstall
 :so ~/.vim/vimrc
 ```
 
