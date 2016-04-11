@@ -310,6 +310,8 @@ endif
 " NERDTree
 " ========================================================================
 let g:nerdtree_tabs_open_on_console_startup=1
+let g:NERDTreeShowHidden=1
+let g:NERDTreeIgnore=['\.DS_Store', '\.git[[dir]]']
 
 " share a single NERDTree between buffers and tabs
  if argc() == 0
