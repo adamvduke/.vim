@@ -1,8 +1,7 @@
 .netrwhist
 .DS_Store
-_temp/*
-_backup/*
+autoload/*
 bundle/*
+plugged/*
 
-!_temp/.gitkeep
-!_backup/.gitkeep
+!autoload/.gitkeep
