@@ -29,6 +29,8 @@ Plug 'tpope/vim-git'
 Plug 'tpope/vim-haml'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
